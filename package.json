@@ -1,0 +1,33 @@
+{
+  "name": "typescript-package-example",
+  "version": "1.0.0",
+  "description": "Example how to publish package from nodejs and typescript repo",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "tsc && node dist/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yonixw/typescript-package-example.git"
+  },
+  "keywords": [
+    "nodejs",
+    "typescript",
+    "package",
+    "example"
+  ],
+  "author": "yonixw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yonixw/typescript-package-example/issues"
+  },
+  "homepage": "https://github.com/yonixw/typescript-package-example#readme",
+  "devDependencies": {
+    "@types/express": "^4.17.6",
+    "tslint": "^6.1.2",
+    "typescript": "^3.9.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
