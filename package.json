@@ -1,5 +1,5 @@
 {
-  "name": "typescript-package-example",
+  "name": "full-typescript-example",
   "version": "1.0.0",
   "description": "Example how to publish package from nodejs and typescript repo",
   "main": "dist/app.js",
