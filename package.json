@@ -31,11 +31,11 @@
   },
   "homepage": "https://github.com/yonixw/typescript-package-example#readme",
   "devDependencies": {
-    "@types/express": "^4.17.6",
     "tslint": "^6.1.2",
     "typescript": "^3.9.3"
   },
   "dependencies": {
+    "@types/express": "^4.17.6",
     "express": "^4.17.1"
   }
 }
