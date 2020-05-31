@@ -1,11 +1,12 @@
 {
   "name": "full-typescript-example",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Example how to publish package from nodejs and typescript repo",
   "main": "dist/app.js",
   "types": "dist/*.d.ts",
   "files": [
-    "dist/*.js"
+    "dist/",
+    "src/"
   ],
   "prepublish": "tsc",
   "scripts": {
