@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Example how to publish package from nodejs and typescript repo",
   "main": "dist/app.js",
+  "types": "dist/app.d.ts",
+  "prepublish": "tsc",
   "scripts": {
     "start": "tsc && node dist/app.js"
   },
