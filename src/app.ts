@@ -1,10 +1,11 @@
 import express from 'express';
+import { magicStrings } from './example-library';
 
 const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('The sedulous hyena ate the antelope!');
+  res.send(magicStrings().join('|'));
 });
 
 app.listen(port, err => {
